@@ -1,0 +1,101 @@
+
+    .header img{
+    padding: 6px;
+    width: 37px;
+    height: 37px;
+    border-radius: 25px;
+}
+.pdf-name{
+    color: black;
+    text-decoration: none;
+    
+}
+.header span{
+    position: relative;
+    font-size: 25px;
+    font-family: Montserrat;
+    top: 5px;
+    
+}
+.FooterHead h3{
+    font-size: 35px;
+    font-family: Montserrat;
+    
+}
+.section {
+    background: -webkit-linear-gradient(left,#882e27,#6d869a 50%,#231641,#e7262696) #442871;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2f1f1;
+}
+.section h2{
+    font-size: 33px;
+    font-family: Merriweather;
+    text-align: center;
+}
+.section .section1{
+    font-size: 23px;
+    font-family: Josefin Sans;
+  text-align: center;
+    width: 70%;
+}
+.container{
+   
+    display: flex;
+    /* grid-template-columns: 33% 33% 19% ; */
+}
+.Footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 31px;
+}
+@media screen and (max-width: 500px) {
+    .Footer img {
+        width: 44px;
+    height: 44px;
+        border-radius: 31px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .section h2 {
+        font-size: 25px;
+        font-family: Merriweather;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    
+.card{
+    width: 18rem;
+    margin: auto;
+
+}
+.section {
+    background: -webkit-linear-gradient(left,#882e27,#6d869a 50%,#231641,#e7262696) #442871;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2f1f1;
+    
+}
+.footer{
+    width:11px;
+    height: 5px;
+    border-radius: 11px;
+}
+.jpgFooter{
+    
+        position: absolute;
+    
+        width: 100%;
+        margin: auto;
+    }
+
+  }

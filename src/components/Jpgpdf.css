@@ -1,0 +1,39 @@
+.converter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .converter-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .converter-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .convert-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .convert-button:hover {
+    background-color: #0056b3;
+  }
+  .jpgFooterJ{
+    position: relative;
+    bottom: -100px;
+
+}
+  

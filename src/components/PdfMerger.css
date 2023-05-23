@@ -1,0 +1,142 @@
+.header img{
+    padding: 6px;
+    width: 37px;
+    height: 37px;
+    border-radius: 25px;
+}
+.jpgFooterM{
+    position: relative;
+    bottom: -110px;
+
+}
+.header span{
+    position: relative;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: bold;
+    top: 5px;
+}
+/* .container{
+   
+    display: flex;
+    grid-template-columns: 33% 33% 19% ;
+ }   */
+.pdfmerger{
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 33px;
+    color: red;
+    margin-top: 33px;
+}
+.mergecontainer{
+    background-color: #e6e6e6;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+.mergeLines{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 23px;
+    color: rgb(16, 14, 14);
+    
+}
+.jpgFooter{
+        position: absolute;
+        bottom: -50px;
+        width: 100%;
+        margin: auto,
+}
+.selectMer span{
+    font-family: Alegreya;
+    font-size: 29px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 33%;
+    text-align: center;
+    padding: 5px 33px ;
+}
+
+label{
+    display: block;
+    margin-top: 33px;
+}
+.selectMer span:hover,.mergebutton:hover{
+    background-color: red;  
+}
+.mergerfiles{
+    margin: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mergebutton{
+    font-family: Alegreya;
+    font-size: 27px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 16%;
+    text-align: center;
+padding: 0px -px ;
+} 
+
+@media screen and (max-width: 800px) {
+    .pdfmerger {
+        text-align: center;
+        font-family: Alegreya;
+        font-size: 25px;
+        color: red;
+    }
+    .mergebutton {
+        font-family: Alegreya;
+        font-size: 26px;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 7px;
+        width: 42%;
+        text-align: center;
+        padding: 0px -px;
+    }
+    .mergeLines {
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        color: rgb(16, 14, 14);
+    }
+    .selectMer span {
+        font-family: Alegreya;
+        font-size: 26px;
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 33%;
+        text-align: center;
+        padding: 5px 16px;
+    }
+    .pdfmerger {
+        text-align: center;
+        font-family: Alegreya;
+        font-size: 25px;
+        
+        margin-top: 26px;
+    }
+    .mergecontainer{
+        background-color: #e6e6e6;
+        position: absolute;
+        height: 94.5%;
+        width: 100%;
+    }
+    .jpgFooter{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        margin: auto,
+}
+  }

@@ -1,0 +1,35 @@
+.header img{
+    padding: 6px;
+    width: 37px;
+    height: 37px;
+    border-radius: 25px;
+}
+
+.header span{
+    position: relative;
+    font-size: 25px;
+    font-family: Montserrat;
+    font-weight: bold;
+    top: 5px;
+}
+.pages{
+    display: flex;
+    justify-content: space-evenly;
+}
+#fromPageInput{
+    width: 100%;
+
+}
+#toPageInput{
+    width: 100%;
+}
+.jpgFooterS{
+    position: relative;
+    bottom: -140px;
+
+}
+.split{
+    position: absolute;
+    width: 100%;
+}
+
